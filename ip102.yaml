@@ -1,0 +1,12 @@
+
+path: X:\Mini\Test1
+train: X:\Mini\Test1\images\train
+val: X:\Mini\Test1\images\val
+
+# number of classes
+nc: 16
+
+# class names
+names: ['rice leaf roller', 'rice leaf caterpillar', 'paddy stem maggot', 'asiatic rice borer', 'yellow rice borer',
+        'rice gall midge', 'Rice Stemfly', 'brown plant hopper', 'white backed plant hopper', 'small brown plant hopper',
+        'rice water weevil', 'rice leafhopper', 'grain spreader thrips', 'rice shell pest', 'grub', 'mole cricket']
