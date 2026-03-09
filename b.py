@@ -1,8 +1,8 @@
 import torch
 
 # Set the local path to the YOLOv5 directory and model
-model_path = 'X:/Mini/Test1/runs/detect/train2/weights/best.pt'
-yolov5_repo_path = r"X:\Mini\frontend\yolov5"  # Local path to your YOLOv5 repo
+model_path = 'Mini/Test1/runs/detect/train2/weights/best.pt'
+yolov5_repo_path = 'Mini/frontend/yolov5'  # Local path to your YOLOv5 repo
 
 # Add the YOLOv5 directory to system path
 import sys

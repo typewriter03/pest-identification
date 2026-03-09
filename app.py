@@ -12,11 +12,11 @@ app = Flask(__name__, static_folder='static')
 
 
 # Load the model once when the server starts
-model_path = r'D:\Mini\Test\best.pt'  # Path to your trained YOLOv8 model
+model_path = 'best.pt' if os.path.exists('best.pt') else 'yolov8n.pt'
 model = YOLO(model_path)
 
 # Load the class names from the YAML file (modify if required)
-yaml_path = r'D:\Mini\Test\ip102.yaml'
+yaml_path = 'ip102.yaml'
 with open(yaml_path, 'r') as f:
     data = yaml.safe_load(f)
 custom_class_names = data['names']
